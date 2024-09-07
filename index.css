@@ -38,3 +38,8 @@ padding: 20px;
             box-sizing: border-box; /* Include padding in width calculation */
             text-align: center; /* Center the text horizontally */
 }
+#githubCat {
+            height: 40px; /* Set a height for the image */
+            margin-right: 20px; /* Space between the image and text */
+  align: left;
+}
