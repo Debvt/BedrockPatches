@@ -45,5 +45,5 @@ padding: 20px;
             border: none;        /* Remove border */
             padding: 0;         /* Remove padding */
             margin: 0;          /* Remove margin */
-            background: none;   /* Remove background */
+            background: transparent;   /* Remove background */
         }
