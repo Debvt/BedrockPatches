@@ -39,7 +39,11 @@ padding: 20px;
             text-align: center; /* Center the text horizontally */
 }
 #githubCat {
-            height: 40px; /* Set a height for the image */
-            margin-right: 20px; /* Space between the image and text */
-  align: left;
-}
+            display: block;      /* Make the image block level */
+            width: 100px;       /* Set desired width */
+            height: 50px;       /* Set desired height */
+            border: none;        /* Remove border */
+            padding: 0;         /* Remove padding */
+            margin: 0;          /* Remove margin */
+            background: none;   /* Remove background */
+        }
