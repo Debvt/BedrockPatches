@@ -1,3 +1,4 @@
+let type = null;
 function generateUUID() {
     // Generate a UUID using browser crypto functions
     return ([1e7] + '-1e3-4e3-8e3-' + [1e11]).replace(/[018]/g, c =>
@@ -15,7 +16,7 @@ function manifest() {
     let template = `{
         "format_version": 2,
         "header": {
-            "name": "",
+            "name": "Bedrock Patches Pack",
             "description": "Bedrock Patches Pack",
             "uuid": "${packUUID}",
             "version": [
@@ -31,7 +32,7 @@ function manifest() {
         },
         "modules": [
             {
-                "type": "resources",
+                "type": "${type}",
                 "uuid": "${moduleUUID}",
                 "version": [
                     1,
