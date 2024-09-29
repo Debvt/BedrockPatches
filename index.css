@@ -75,3 +75,8 @@ padding: 20px;
   border-radius: 20px; 
   
 }
+#addon:hover {
+
+background-color: #303030;
+  
+}
