@@ -73,10 +73,10 @@ padding: 20px;
     font-size: 60px;
   cursor: pointer;
   border-radius: 20px; 
-  
+transition: transform 0.4s;
 }
 #addon:hover {
 
 background-color: #303030;
-  
+    transform: scale(1.1); /* Scale button to 110% */
 }
