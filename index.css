@@ -8,7 +8,7 @@ body {
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    min-height: 100vh; /* Allows the infobox to stay at the bottom */
 }
 
 #bpdiv {
@@ -27,25 +27,6 @@ body {
     text-align: center; 
 }
 
-#infobox {
-    background-color: #242424; 
-    color: white; 
-    width: 100%; 
-    position: relative; /* Changed back to relative */
-    padding: 20px; 
-    box-sizing: border-box; 
-    text-align: center; 
-    margin-top: auto; /* Ensures it stays at the bottom of the content */
-}
-
-#githubCat {
-    display: block;      
-    width: 25%;         
-    height: auto;       
-    margin: 0 auto; 
-    cursor: pointer;
-}
-
 #addondiv {
     background-color: #242424;
     width: 90%; 
@@ -54,7 +35,6 @@ body {
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    border-radius: 20px;
 }
 
 #addon {
@@ -76,6 +56,22 @@ body {
 #addon:hover {
     background-color: #303030;
     transform: scale(1.05); 
+}
+
+#infobox {
+    background-color: #242424; 
+    color: white; 
+    width: 100%; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    text-align: center; 
+}
+
+#githubCat {
+    display: block;      
+    width: 25%;         
+    height: auto;       
+    margin: 0 auto; 
 }
 
 @media (max-width: 768px) {
